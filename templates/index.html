@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+    </head>
+    <body>
+        <h1>Classificador de imagens</h1>
+        <h3>Categorias cobertas:</h3>
+        <ul>
+            <li>Avião</li>
+            <li>Automóvel</li>
+            <li>Pássaro</li>
+            <li>Gato</li>
+            <li>Veado</li>
+            <li>Avião</li>
+            <li>Cachorro</li>
+            <li>Sapo</li>
+            <li>Cavalo</li>
+            <li>Navio</li>
+            <li>Caminhão</li>
+        </ul>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <label for="image">Horas de Estudo:</label>
+            <input type="file" id="image" name="image">
+            <input type="submit" value="Classificar imagem">
+        </form>
+    </body>
+</html>
+

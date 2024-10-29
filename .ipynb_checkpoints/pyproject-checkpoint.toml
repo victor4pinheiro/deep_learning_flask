@@ -7,11 +7,9 @@ requires-python = ">=3.10"
 dependencies = [
     "flask>=3.0.3",
     "jupyterlab>=4.2.5",
-    "keras>=3.6.0",
     "matplotlib>=3.9.2",
-    "numpy<=2.0.0",
-    "pillow>=11.0.0",
-    "tensorflow>=2.18.0",
+    "numpy>=2.1.2",
+    "tensorflow>=2.14.0",
 ]
 
 [dependency-groups]
